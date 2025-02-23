@@ -1,0 +1,162 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Aplica al index.html*/
+.logo {
+    background-image: url(../img/logo.PNG);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-left: 44vw;
+}
+
+.texto {
+    font-family: 'BreakingBad';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+@font-face {
+    font-family: 'BreakingBad';
+    src: url('../fonts/BreakingBad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.poster {
+    height: 300px;
+    width: 700px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    margin-left: 31%;
+}
+
+/* Aplica al formulario.html*/
+.formulario {
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+    margin: auto;
+}
+
+#titulo {
+    padding-top: 0.1rem;
+}
+
+.textform {
+    background-color: rgba(0, 0, 0, 0.363);
+    max-width: 50vw;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border-style: ridge;
+    border-top-color: chartreuse;
+    border-bottom-color: chartreuse;
+    padding-bottom: 2rem;
+}
+
+fieldset {
+    margin-top: 1rem;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.contenido {
+    margin: 0.75rem;
+}
+
+
+/* Aplica a tabla.html*/
+
+body.fondo {
+    background-image: initial;
+    background-color: #0c3e11;
+    margin: 1% 20%;
+    font-size: 10px;
+
+}
+
+.cabecera {
+    margin-left: 30%;
+    margin-bottom: 1rem;
+}
+
+table {
+    margin-left: 7%;
+    text-align: center;
+    border-spacing: 0.6rem;
+    empty-cells: hide;
+    background-color: black;
+    table-layout: fixed;
+}
+
+td {
+    background-color: #D5E97A;
+    width: 4vw;
+    height: 5vh;
+}
+
+.Ha {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.letras {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    transform: scaleY(1.2);
+}
+
+.verde1 {
+    background-color: #B7DB21;
+}
+
+.Ma {
+    background-color: #AB8ACF;
+}
+
+.crema {
+    background-color: #EFF7C8;
+}
+
+.oliva {
+    background-color: #89A417;
+}
+
+.militar {
+    background-color: #637126;
+}
+
+.lima {
+    background-color: #C2DF4F;
+}
+
+.gris {
+    background-color: #BCC49D;
+}
+
+.verde2 {
+    background-color: #828D55;
+}
+
+.amarillo {
+    background-color: #C2C629;
+}
+
+table.tabla2 {
+    margin-left: 6vw;
+    margin-top: 3rem;
+    height: 5vh;
+}

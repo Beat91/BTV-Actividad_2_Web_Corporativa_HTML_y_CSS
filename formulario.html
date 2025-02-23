@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form class="formulario" name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com"
+        autocomplete="on" target="_blank" enctype="multipart/form-data">
+        <div class="textform">
+            <h1 id="titulo">Breaking Bad - Que comience el juego!</h1>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div class=contenido>
+                    <label for="Nombre">Nombre
+                        <input type="text" placeholder="P.Ejemp. Juan" name="Nombre" required>
+                    </label>
+                    <label for="Apellidos">Apellidos
+                        <input type="text" placeholder="P.Ejemp. Perez Sanchez" name="Apellidos" required>
+                    </label>
+                </div>
+                <div class=contenido>
+                    <label for="DNI">DNI
+                        <input type="text" placeholder="P.Ejemp. 02485135J" name="DNI">
+                    </label>
+                    <label for="Email">Correo Electrónico
+                        <input type="email" placeholder="P.Ejemp. juanps@gmail.com" name="Email" required>
+                    </label>
+                </div>
+                <div class=contenido>
+                    <label for="sexo">Sexo</label>
+                    <label for="Hombre">Hombre<input type="radio" name="Sexo" value="Hombre"></label>
+                    <label for="Mujer">Mujer<input type="radio" name="Sexo" value="Mujer"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dirección Postal</legend>
+                <div class=contenido>
+                    <label for="Calle">Calle
+                        <input type="text" placeholder="P.Ejemp. Avenida las Norias" name="Calle">
+                    </label>
+                    <label for="Numero">Número
+                        <input type="number" placeholder="P.Ejemp. 7" name="Número">
+                    </label>
+                    <label for="Piso">Piso
+                        <input type="text" placeholder="P.Ejemp. 4B" name="Piso">
+                    </label>
+                </div>
+                <div class=contenido>
+                    <label for="CP">Código Postal
+                        <input type="text" placeholder="P.Ejemp. 13001" name="CP">
+                    </label>
+                    <label for="Ciudad">Ciudad
+                        <input type="text" placeholder="P.Ejemp. Ciudad Real" name="Ciudad">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Hablemos de Breaking Bad</legend>
+                <div class=contenido>
+                    <label for="Actor favorito">Selecciona tu actor/actriz favorito
+                        <input list="lista" name="Actor favorito">
+                        <datalist id="lista">
+                            <option value="Jessie Pinkman">
+                            <option value="Walter White">
+                            <option value="Saul Goodman">
+                            <option value="Gustavo Fring">
+                            <option value="Pollos Hermanos">
+                            <option value="Otros personajes">
+                        </datalist>
+                    </label>
+                </div>
+                <div class=contenido>
+                    <label for="Comentarios">Comentarios acerca de la serie:</label>
+                </div>
+                <div class=contenido>
+                    <textarea name="Comentarios" id="Comentarios" cols="80" rows="5" spellcheck="true"
+                        placeholder="P.Ejemp. Lo que mas me ha gustado de la serie es..."></textarea>
+                </div>
+            </fieldset>
+            <div class=contenido>
+                <label for="Adjunto">Adjuntar archivos:
+                    <input type="file" name="Adjuntar" id="Adjuntar" accept=".pdf, .docx" multiple>
+                </label>
+            </div>
+            <div class=contenido>
+                <input type="submit" value="Enviar Formulario">
+                <input type="reset" value="Borrar Datos">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
